@@ -1,0 +1,155 @@
+%%% Your header encountered errors when converting with LaTeXML
+%%% Please uncomment it incrementally and check for problems
+%%%   If you need assistance, contact us at help@authorea.com
+%%% 
+%
+%\iflatexml
+%% \documentclass[english,man]{apa6} % Not (yet) supported by LaTeXML.
+%\fi
+%\usepackage{amssymb,amsmath}
+%\usepackage{amssymb,amsmath}
+%
+%\usepackage{ifxetex,ifluatex}
+%% \usepackage{ifxetex,ifluatex} % Not (yet) supported by LaTeXML.
+%
+%\usepackage{fixltx2e}
+% % provides \textsubscript
+%\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0   % \usepackage[T1]{fontenc} % Not (yet) supported by LaTeXML.
+%
+%  \usepackage[utf8]{inputenc}
+%
+%\else   \ifxetex
+%    % \usepackage{mathspec} % Not (yet) supported by LaTeXML.
+%
+%    % \usepackage{xltxtra,xunicode} % Not (yet) supported by LaTeXML.
+%% \usepackage{xltxtra,xunicode} % Not (yet) supported by LaTeXML.
+%
+%  \else
+%    % \usepackage{fontspec} % Not (yet) supported by LaTeXML.
+%
+%  \fi
+%  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+%  \newcommand{\euro}[][]{€}
+%
+%\fi
+%\IfFileExists{upquote.sty}{% \usepackage{upquote} % Not (yet) supported by LaTeXML.
+%}{}
+%\IfFileExists{microtype.sty}{% \usepackage{microtype} % Not (yet) supported by LaTeXML.
+%}{}
+%\usepackage{longtable, booktabs}
+%% \usepackage{longtable, booktabs} % Not (yet) supported by LaTeXML.
+%
+%\usepackage{lscape}
+%
+%\usepackage{multirow}
+%		% Table styling
+%\usepackage{tabularx}
+%		% Control Column width
+%\usepackage[flushleft]{threeparttable}
+%	% Allows for three part tables with a specified notes section
+%% \usepackage{threeparttablex} % Not (yet) supported by LaTeXML.
+%            % Lets threeparttable work with longtable
+%\newenvironment{lltable}
+%  {
+%\begin{landscape}
+%\begin{center}
+%\begin{ThreePartTable}
+%}
+%  {\end{ThreePartTable}
+%\end{center}
+%\end{landscape}
+%}
+%% \usepackage{ifthen} % Not (yet) supported by LaTeXML.
+% % Only add declarations when endfloat package is loaded
+%  \ifthenelse{\equal{\string man}{\string man}}{   \DeclareDelayedFloatFlavor{ThreePartTable}{table}       \DeclareDelayedFloatFlavor{lltable}{table}   }{}
+%\makeatletter
+%\newcommand\LastLTentrywidth[][]{1em}
+%
+%\newlength\longtablewidth
+%\setlength{\longtablewidth}{1in}
+%\newcommand\getlongtablewidth[][]{%
+% \begingroup
+%  \ifcsname LT@\roman{LT@tables}\endcsname
+%  \global\longtablewidth=0pt
+%  \renewcommand\LT@entry[2]{\global\advance\longtablewidth by ##2\relax\gdef\LastLTentrywidth{##2}}%
+%  \@nameuse{LT@\roman{LT@tables}}%
+%  \fi
+%\endgroup}
+%\usepackage{graphicx}
+%
+%  \makeatletter
+%  \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+%
+%  \def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+%
+%  \makeatother
+%        \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+%% First macro on next line not (yet) supported by LaTeXML: 
+%% \ifxetex
+%  \usepackage[setpagesize=false, % page size defined by xetex
+%              unicode=false, % unicode breaks when used with xetex
+%              xetex]{hyperref}
+%
+%\else
+%  \usepackage[unicode=true]{hyperref}
+%
+%\fi
+%\hypersetup{breaklinks=true,
+%            pdfauthor={},
+%            pdftitle={Equivalence Testing for Psychological Science},
+%            colorlinks=true,
+%            citecolor=blue,
+%            urlcolor=blue,
+%            linkcolor=black,
+%            pdfborder={0 0 0}}
+%\urlstyle{same}
+%\setlength{\parindent}{0pt}
+%\setlength{\emergencystretch}{3em}
+%% First macro on next line not (yet) supported by LaTeXML: 
+%% \ifxetex
+%  % \usepackage{polyglossia} % Not (yet) supported by LaTeXML.
+%
+%  \setmainlanguage{}
+%\else
+%  % \usepackage[english]{babel} % Not (yet) supported by LaTeXML.
+%
+%\fi
+%\captionsetup{font=singlespacing,justification=justified}
+%% \usepackage{csquotes} % Not (yet) supported by LaTeXML.
+%
+%\usepackage{upgreek}
+%\usepackage{lineno}
+%
+%  \linenumbers
+%\usepackage{tikz}
+% % Variable definition to generate author note
+%\providecommand{\tightlist}[][]{%
+%  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+%\shorttitle{Equivalence Testing}
+%\def\affdep{{"", "", ""}}
+%  \def\affcity{{"", "", ""}}
+%\authornote{
+%    \newcounter{author}
+%    We would like to thank Courtney Soderbergh for creating the first
+%    version of the TOST function to test two independent proportions.
+%Correspondence concerning this article should be addressed to Daniel Lakens, Den Dolech 1, IPO 1.33, 5600 MB, Eindhoven, The Netherlands. E-mail: \href{mailto:D.Lakens@tue.nl}{\nolinkurl{D.Lakens@tue.nl}}
+%                                    }
+%\indent  Word count: X
+%  }
+%\usepackage{amsthm}
+%
+%\newtheorem{theorem}{Theorem}
+%\newtheorem{lemma}{Lemma}
+%\theoremstyle{definition}
+%\newtheorem{definition}{Definition}
+%\newtheorem{corollary}{Corollary}
+%\newtheorem{proposition}{Proposition}
+%\theoremstyle{definition}
+%\newtheorem{example}{Example}
+%\theoremstyle{definition}
+%\newtheorem{exercise}{Exercise}
+%\theoremstyle{remark}
+%% First macro on next line not (yet) supported by LaTeXML: 
+%% \newtheorem*{remark}{Remark}
+%% First macro on next line not (yet) supported by LaTeXML: 
+%% \newtheorem*{solution}{Solution}
