@@ -6,4 +6,4 @@ specifying a smallest effect size of interest (SESOI) researchers test
 whether observed effects are surprisingly closer to zero, assuming there
 was an effect the consider meaningful. We explain a range of approaches
 to determine the SESOI in psychological science, and provide detailed
-examples of how equivalence tests should be performed and reported.ea 
+examples of how equivalence tests should be performed and reported.ea t
